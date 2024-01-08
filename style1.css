@@ -77,3 +77,9 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.prog{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
