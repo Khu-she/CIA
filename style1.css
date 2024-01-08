@@ -29,10 +29,15 @@
     list-style-type: none;
     width: auto;
 }
+.nav-img{
+
+    float: left;
+}
 .navbar-ul li{
     display: inline-block;
-    padding: 8px 12px;
-    
+    padding: 3% 12px;
+    padding-bottom: 10PX;
+
 
 }
 .navbar-ul li a{
@@ -74,7 +79,7 @@
     text-align:justify;
     font-size: 20px;
     padding: 15%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 .prog{
