@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', monospace;
+    font-family:"Georgia", 'Times New Roman', Times, serif;
 
 }
 
@@ -95,6 +95,9 @@
     color: black;
     text-align: center;
 }
+.programs h1{
+    font-size: 60px;
+}
 .prog2{
     flex-basis:23%;
     background: #7e70fb;
@@ -122,3 +125,35 @@ h2{
     box-shadow: 0 0 50px 0px rgba(114, 114, 114, 0.53);
 }
 
+.main-footer{
+    color: white;
+    text-align: center;
+    background-color: #6A6B6A;
+}
+.main-footer p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.main-support-div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    
+}
+
+.main-support-div h1{
+    font-size: 60px;
+    margin-bottom: 4%;
+}
+
+.sup-card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sup-card img{
+    width: 30%;
+}
