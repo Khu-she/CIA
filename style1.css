@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
     font-family: 'Courier New', monospace;
 
 }
@@ -12,6 +11,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    color:white;
 }
 .main-hr{
     margin-left: 19%;
@@ -82,9 +82,43 @@
     padding-top: 3%;
     padding-bottom: 5%;
 }
+.programs{
+    text-align: center;
+}
+
 .prog{
-    margin-top: 5%;
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: black;
+    text-align: center;
 }
+.prog2{
+    flex-basis:23%;
+    background: #7e70fb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    transition: 0.25s;
+
+}
+.prog2 h3{
+    padding-top: 7%;
+    padding-bottom: 20%;
+}
+.prog2 p{
+    padding-bottom: 10%;
+}
+h2{
+    text-align:center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.prog2:hover{
+    box-shadow: 0 0 50px 0px rgba(114, 114, 114, 0.53);
+}
+
