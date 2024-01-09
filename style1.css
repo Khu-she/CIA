@@ -157,3 +157,125 @@ h2{
 .sup-card img{
     width: 30%;
 }
+
+/* DONATION .html */
+.container-donate{
+    background-color: black;
+    color: white;
+}
+.donation{
+    text-align: center;
+}
+.donation h1{
+    font-size: 60px;
+    padding-top: 10%;
+}
+.donation-text{
+    padding: 5%;
+    width:30%;
+    padding-left: 5%;
+}
+.donation-text p{
+    text-align: justify;
+}
+/* WORK .html */
+.container-work{
+    background-color: black;
+    color:white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image:linear-gradient(rgba(13, 4, 30, 0.7), rgba(55, 55, 58, 0.7)), url(img/bg2.jpg);
+}
+.work{
+    text-align: center;
+}
+.work h1{
+    font-size: 60px;
+    padding-top: 7%;
+    text-align: center ;
+}
+.work-text{
+    /*padding: 5%;*/
+    width:80%;
+    padding-left: 5%;
+}
+.work-text p{
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 20%;
+  
+}
+.edu{
+    text-align: center;
+}
+.edu h2{
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center ;
+}
+.edu-text{
+    /*padding: 5%;*/
+    width:80%;
+    padding-left: 5%;
+}
+.edu-text p{
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+}
+.emp{
+    text-align: center;
+}
+.emp h2{
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center ;
+}
+.emp-text{
+    /*padding: 5%;*/
+    width:80%;
+    padding-left: 5%;
+}
+.emp-text p{
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+}
+.Health{
+    text-align: center;
+}
+.Health h2{
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center ;
+}
+.Health-text{
+    /*padding: 5%;*/
+    width:80%;
+    padding-left: 5%;
+}
+.Health-text p{
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+}
+.live{
+    text-align: center;
+}
+.live h2{
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center ;
+}
+.live-text{
+    /*padding: 5%;*/
+    width:80%;
+    padding-left: 5%;
+}
+.live-text p{
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+}
