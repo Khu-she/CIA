@@ -14,8 +14,7 @@
     color:white;
 }
 .main-hr{
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 70%;
     height: 2px;
     background-color: #bb00ff;
     border: none;
@@ -25,12 +24,13 @@
 
 .navbar{
     /* padding: 0px 50px; */
-    text-align: center;
+    text-align: right;
+    padding-right: 5%;
     list-style-type: none;
     width: auto;
 }
 .nav-img{
-
+    padding-left: 5%;
     float: left;
 }
 .navbar-ul li{
@@ -78,7 +78,7 @@
     
     text-align:justify;
     font-size: 20px;
-    padding: 15%;
+    padding: 16%;
     padding-top: 3%;
     padding-bottom: 5%;
 }
@@ -97,32 +97,32 @@
 }
 .programs h1{
     font-size: 60px;
+    padding-bottom: 3%;
 }
 .prog2{
     flex-basis:23%;
-    background: #7e70fb;
-    border-radius: 10px;
+    background: #a197ff;
+    border-radius: 30px;
     margin-bottom: 5%;
-    padding: 20px 40px;
+    padding: 20px 40px; 
     box-sizing: border-box;
     transition: 0.25s;
 
 }
 .prog2 h3{
+    font-weight: bold;
+    font-size: 25px;
     padding-top: 7%;
-    padding-bottom: 20%;
+    padding-bottom: 25%;
 }
 .prog2 p{
+    font-size: 20px;
     padding-bottom: 10%;
 }
-h2{
-    text-align:center;
-    font-weight: 600;
-    margin: 10px 0;
-}
+
 
 .prog2:hover{
-    box-shadow: 0 0 50px 0px rgba(114, 114, 114, 0.53);
+    box-shadow: 0 0 50px 0px rgb(0, 0, 0);
 }
 
 .main-footer{
@@ -149,11 +149,25 @@ h2{
 }
 
 .sup-card{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     
 }
 
 .sup-card img{
+    box-shadow: 0 0 50px 0 rgb(133, 133, 133);
+    box-sizing: border-box;
+    border-radius: 60px;
     width: 30%;
+}
+.bottom-left {
+    font-weight: 250;
+    font-size: 40px;
+    padding-left: 42%;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
 }
